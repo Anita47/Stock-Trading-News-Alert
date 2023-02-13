@@ -51,7 +51,7 @@ if diff_percent>5:
         message=client.messages.create(
             body=article,
             from_="+12342241648",
-            to="+917011085656"
+            to="Add your phone number"
             )
 print(str(diff_percent)+'%')
 
